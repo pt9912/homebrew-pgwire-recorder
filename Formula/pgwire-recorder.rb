@@ -1,28 +1,28 @@
 class PgwireRecorder < Formula
   desc "Zeichnet PostgreSQL-Protokollverkehr auf und spielt ihn wieder ab"
   homepage "https://github.com/pt9912/pgwire-recorder"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.1.1/pgwire-recorder-darwin-arm64"
-      sha256 "a3971338cb31adc12a427c160b3ae4522aaba095b7e0211d371817ca22168db5"
+      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.2.0/pgwire-recorder-darwin-arm64"
+      sha256 "7e43a883feaf26af43247dea7b4167354e9144ad8dac2e67c3f2c61a1189c0c0"
     end
     on_intel do
-      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.1.1/pgwire-recorder-darwin-amd64"
-      sha256 "abd8ac49ea773e5693f7d2a6ddadaca1d72a3102756465b951e9d2303242fa6c"
+      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.2.0/pgwire-recorder-darwin-amd64"
+      sha256 "745313db244bdf62d0df4830c413806798c7741e61876e91714d54bfd5ea5327"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.1.1/pgwire-recorder-linux-arm64"
-      sha256 "c7ca2ca078a1d765f92ce22963baec4777dd5e280c78c68fe778a2a8d2c18ae4"
+      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.2.0/pgwire-recorder-linux-arm64"
+      sha256 "8e39788988551d3e6ef0e45444e4c4b90cf33bdeb9dd8d795d028b5ff05d7757"
     end
     on_intel do
-      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.1.1/pgwire-recorder-linux-amd64"
-      sha256 "25a44ceb4ba604725ab4b2349b7ff664a1077f83937820584e5234a7eba2965c"
+      url "https://github.com/pt9912/pgwire-recorder/releases/download/v0.2.0/pgwire-recorder-linux-amd64"
+      sha256 "4177b046f5dc5a7d08de45ae3e135b91418d3e160d10f99b27a48e63a93a1467"
     end
   end
 
